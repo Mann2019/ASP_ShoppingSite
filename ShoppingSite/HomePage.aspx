@@ -9,7 +9,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div style="background-color:chocolate; fill-opacity:inherit; height:30px;">
+            
         </div>
     </form>
 </body>

@@ -216,9 +216,9 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
-    <Content Include="App_Data\Accounts.mdf" />
-    <Content Include="App_Data\Accounts_log.ldf">
-      <DependentUpon>Accounts.mdf</DependentUpon>
+    <Content Include="App_Data\GamesDB.mdf" />
+    <Content Include="App_Data\GamesDB_log.ldf">
+      <DependentUpon>GamesDB.mdf</DependentUpon>
     </Content>
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
@@ -235,14 +235,29 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="GameBuilds\DoodleJump\Build\UnityLoader.js" />
+    <Content Include="GameBuilds\DoodleJump\index.html" />
+    <Content Include="GameBuilds\DoodleJump\TemplateData\favicon.ico" />
+    <Content Include="GameBuilds\DoodleJump\TemplateData\fullscreen.png" />
+    <Content Include="GameBuilds\DoodleJump\TemplateData\progressEmpty.Dark.png" />
+    <Content Include="GameBuilds\DoodleJump\TemplateData\progressEmpty.Light.png" />
+    <Content Include="GameBuilds\DoodleJump\TemplateData\progressFull.Dark.png" />
+    <Content Include="GameBuilds\DoodleJump\TemplateData\progressFull.Light.png" />
+    <Content Include="GameBuilds\DoodleJump\TemplateData\progressLogo.Dark.png" />
+    <Content Include="GameBuilds\DoodleJump\TemplateData\progressLogo.Light.png" />
+    <Content Include="GameBuilds\DoodleJump\TemplateData\style.css" />
+    <Content Include="GameBuilds\DoodleJump\TemplateData\UnityProgress.js" />
+    <Content Include="GameBuilds\DoodleJump\TemplateData\webgl-logo.png" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="HomePage.aspx" />
     <Content Include="Images\GameJamBanner.png" />
+    <Content Include="Images\watchdogs2.jpg" />
     <Content Include="Images\websiteBG.jpg" />
     <Content Include="Images\websiteBG2.jpg" />
     <Content Include="Images\websiteBG3.jpg" />
     <Content Include="Images\websiteBG3.png" />
     <Content Include="LoginPage.aspx" />
+    <Content Include="PaymentPage.aspx" />
     <Content Include="RecoveryPage.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -278,6 +293,11 @@
     <Content Include="StyleSheet3.css" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
+    <Content Include="GameBuilds\DoodleJump\Build\WebBuild.asm.code.unityweb" />
+    <Content Include="GameBuilds\DoodleJump\Build\WebBuild.asm.framework.unityweb" />
+    <Content Include="GameBuilds\DoodleJump\Build\WebBuild.asm.memory.unityweb" />
+    <Content Include="GameBuilds\DoodleJump\Build\WebBuild.data.unityweb" />
+    <Content Include="GameBuilds\DoodleJump\Build\WebBuild.json" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account\AddPhoneNumber.aspx.designer.vb">
@@ -446,6 +466,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PaymentPage.aspx.designer.vb">
+      <DependentUpon>PaymentPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentPage.aspx.vb">
+      <DependentUpon>PaymentPage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="RecoveryPage.aspx.designer.vb">
       <DependentUpon>RecoveryPage.aspx</DependentUpon>
