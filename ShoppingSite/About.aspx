@@ -2,6 +2,6 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
-    <p>Your app description page.</p>
-    <p>Use this area to provide additional information.</p>
+    <p>This is a games shopping site...</p>
+    <p>We provide latest games at the lowest prices possible, delivered to your doorsteps!</p>
 </asp:Content>

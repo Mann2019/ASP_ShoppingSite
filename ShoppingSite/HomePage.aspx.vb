@@ -26,8 +26,7 @@ Public Class HomePage
     End Sub
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-
-        Button4.Focus()
+        HyperLink2.Focus()
     End Sub
 
     Protected Sub ImageButton1_Click(sender As Object, e As ImageClickEventArgs) Handles ImageButton1.Click
@@ -68,6 +67,8 @@ Public Class HomePage
     Protected Sub ImageButton8_Click(sender As Object, e As ImageClickEventArgs) Handles ImageButton8.Click
         CreateConnection(8)
         Image1.ImageUrl = "~/Images/farcry4Game.jpg"
+        Button2.Enabled = True
+        Button3.Enabled = True
     End Sub
 
     Protected Sub ImageButton9_Click(sender As Object, e As ImageClickEventArgs) Handles ImageButton9.Click
@@ -78,5 +79,24 @@ Public Class HomePage
     Protected Sub ImageButton10_Click(sender As Object, e As ImageClickEventArgs) Handles ImageButton10.Click
         CreateConnection(10)
         Image1.ImageUrl = "~/Images/ryseGame.jpg"
+    End Sub
+
+    Protected Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Button4.Focus()
+    End Sub
+
+    Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Label9.Text = "Enter number of months for rent : "
+        HyperLink2.Focus()
+    End Sub
+
+    Protected Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        If TextBox1.Text <> "" And TextBox2.Text <> "" Then
+            Label11.Text = (Convert.ToInt32(Label3.Text) * Convert.ToInt32(TextBox2.Text)).ToString
+            Label14.Text = "Payment successful!!"
+        Else
+            Label14.Text = "*You are missing important info needed for transaction..."
+        End If
+        Me.HyperLink2.Focus()
     End Sub
 End Class

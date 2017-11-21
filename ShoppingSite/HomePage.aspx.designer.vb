@@ -104,6 +104,15 @@ Partial Public Class HomePage
     Protected WithEvents Button3 As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
+    '''Label13 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label13 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
     '''ImageButton1 control.
     '''</summary>
     '''<remarks>
@@ -273,4 +282,31 @@ Partial Public Class HomePage
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Label12 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''Label14 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label14 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''HyperLink1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents HyperLink1 As Global.System.Web.UI.WebControls.HyperLink
+    
+    '''<summary>
+    '''HyperLink2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents HyperLink2 As Global.System.Web.UI.WebControls.HyperLink
 End Class
