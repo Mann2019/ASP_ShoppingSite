@@ -216,10 +216,6 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
-    <Content Include="App_Data\GamesDB.mdf" />
-    <Content Include="App_Data\GamesDB_log.ldf">
-      <DependentUpon>GamesDB.mdf</DependentUpon>
-    </Content>
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -250,14 +246,23 @@
     <Content Include="GameBuilds\DoodleJump\TemplateData\webgl-logo.png" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="HomePage.aspx" />
+    <Content Include="Images\battlefield4Game.png" />
+    <Content Include="Images\defaultGame.jpg" />
+    <Content Include="Images\destinyGame.jpg" />
+    <Content Include="Images\dyinglightGame.jpg" />
+    <Content Include="Images\evilwithinGame.jpg" />
+    <Content Include="Images\farcry4Game.jpg" />
     <Content Include="Images\GameJamBanner.png" />
+    <Content Include="Images\ryseGame.jpg" />
+    <Content Include="Images\stealth2Game.png" />
+    <Content Include="Images\thecrewGame.jpg" />
     <Content Include="Images\watchdogs2.jpg" />
     <Content Include="Images\websiteBG.jpg" />
     <Content Include="Images\websiteBG2.jpg" />
     <Content Include="Images\websiteBG3.jpg" />
     <Content Include="Images\websiteBG3.png" />
+    <Content Include="Images\witcher3Game.jpg" />
     <Content Include="LoginPage.aspx" />
-    <Content Include="PaymentPage.aspx" />
     <Content Include="RecoveryPage.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -291,7 +296,9 @@
     <Content Include="StyleSheet1.css" />
     <Content Include="StyleSheet2.css" />
     <Content Include="StyleSheet3.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Bundle.config" />
     <Content Include="GameBuilds\DoodleJump\Build\WebBuild.asm.code.unityweb" />
     <Content Include="GameBuilds\DoodleJump\Build\WebBuild.asm.framework.unityweb" />
@@ -467,13 +474,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="PaymentPage.aspx.designer.vb">
-      <DependentUpon>PaymentPage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="PaymentPage.aspx.vb">
-      <DependentUpon>PaymentPage.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
     <Compile Include="RecoveryPage.aspx.designer.vb">
       <DependentUpon>RecoveryPage.aspx</DependentUpon>
     </Compile>
@@ -541,7 +541,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
