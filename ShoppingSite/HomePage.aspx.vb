@@ -82,7 +82,12 @@ Public Class HomePage
     End Sub
 
     Protected Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        Button4.Focus()
+        If TextBox2.Text <> "" Then
+            Label11.Text = (Convert.ToInt32(Label3.Text) * Convert.ToInt32(TextBox2.Text)).ToString
+        Else
+            Label14.Text = "*Enter valid number of moonths/units.."
+        End If
+        HyperLink2.Focus()
     End Sub
 
     Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click

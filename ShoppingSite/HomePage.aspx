@@ -9,7 +9,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div style="background-color:chocolate; fill-opacity:inherit; height:30px; width:500px; margin-left:auto; margin-right:auto;">
+        <div style="background-color:black; fill-opacity:inherit; height:30px; width:500px; margin-left:auto; margin-right:auto;">
             <asp:Label ID="Label7" runat="server" Font-Bold="True" Font-Italic="True" Font-Size="X-Large" ForeColor="#FFFFCC" style="text-align: center; z-index: 1; margin-left: auto; margin-right:auto; top: 0px; position: relative; left: 0px;" Text="We have got the best and the latest deals!!!!" Width="500px"></asp:Label>
         </div>
         <div style="width:600px; height:310px; margin-left:auto; margin-right:auto; margin-top:20px; position: relative; background-color:bisque" aria-dropeffect="none" >
@@ -43,13 +43,13 @@
 
             <asp:TextBox ID="TextBox2" runat="server" style="z-index: 1; left: 300px; top: 81px; position: absolute; width: 166px"></asp:TextBox>
             <asp:Label ID="Label8" runat="server" style="z-index: 1; left: 32px; top: 142px; position: absolute; width: 240px; text-align: center" Text="Enter your Credit/Debit card CVV :" ForeColor="#000066"></asp:Label>
-            <asp:Label ID="Label9" runat="server" style="z-index: 1; left: 32px; top: 83px; position: absolute; width: 240px; text-align: center" Text="Enter number of copies :" ForeColor="#000066"></asp:Label>
+            <asp:Label ID="Label9" runat="server" style="z-index: 1; left: 32px; top: 83px; position: absolute; width: 240px; text-align: center" Text="Enter number of units :" ForeColor="#000066"></asp:Label>
 
             <asp:Button ID="Button5" runat="server" BackColor="#000066" BorderStyle="Ridge" Font-Bold="True" ForeColor="#CCFF99" style="z-index: 1; left: 492px; top: 80px; position: absolute; width: 85px" Text="Submit" />
             <asp:Label ID="Label10" runat="server" Font-Bold="True" Font-Size="X-Large" ForeColor="#000066" style="z-index: 1; left: 118px; top: 195px; position: absolute" Text="Grand Total :    RS. "></asp:Label>
             <asp:Label ID="Label11" runat="server" Font-Bold="True" Font-Size="X-Large" style="font-weight: 700; z-index: 1; left: 413px; top: 195px; position: absolute" Text="0"></asp:Label>
             <asp:Label ID="Label12" runat="server" Font-Bold="True" Font-Italic="True" Font-Size="XX-Large" ForeColor="#000066" style="z-index: 1; left: 246px; top: 6px; position: absolute" Text="Payment"></asp:Label>
-            <asp:Label ID="Label14" runat="server" Font-Italic="True" Font-Size="Large" ForeColor="Red" style="z-index: 1; left: 250px; top: 258px; position: absolute; text-align: center"></asp:Label>
+            <asp:Label ID="Label14" runat="server" Font-Italic="True" Font-Size="Large" ForeColor="Red" style="z-index: 1; left: 230px; top: 258px; position: absolute; text-align: center"></asp:Label>
 
         </div>
         <div style="margin-left:auto; margin-right:auto; width:150px; height:50px">
